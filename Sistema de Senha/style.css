@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* estilização do cabeçalho*/
+header{
+    height: 70px;
+    background-color: rgb(36, 79, 199);
+    font-size: large;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(154, 175, 194);
+}
+.senha {
+    color: #f1f50a;
+    background-color: rgb(36, 79, 199);
+    padding: 25px;
+    align-items: center;
+    border: 1px solid #blue;
+    border-radius: 40px;
+    font-size: 30px;
+    min-width: 300px;
+}
+
+#senha  {
+    border: 1px solid #f1f50a;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+/* Roda pé*/
+footer {
+    background-color: rgb(36, 79, 199);
+    color: aliceblue;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+}
+
+
+
